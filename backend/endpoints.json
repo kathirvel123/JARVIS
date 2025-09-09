@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    {
+      "name": "example_plugin",
+      "base_url": "http://127.0.0.1:8000/",
+      "discovery_endpoint": "tools/list",
+      "enabled": true,
+      "timeout": 30,
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  ]
+}
